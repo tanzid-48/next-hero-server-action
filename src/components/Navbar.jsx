@@ -1,4 +1,4 @@
-import { Button } from '@heroui/react';
+
 import Link from 'next/link';
 import React from 'react';
 import ThemesToggleBtn from './ThemesToggleBtn';
@@ -15,9 +15,14 @@ const Navbar = () => {
       <li><Link href="/">Home</Link></li>
       <li><Link href="/tasks">Tasks</Link></li>
       <li><Link href="/hero">Family Card</Link></li>
-      <ThemesToggleBtn></ThemesToggleBtn>
+
     </ul>
-  </header>
+
+    <div className="">
+     <ThemesToggleBtn></ThemesToggleBtn>
+  </div>
+
+  </header>  
 </nav>
        </>
     );
