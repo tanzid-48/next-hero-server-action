@@ -24,10 +24,9 @@
 // export default TasksCard;
 
 
-import { Card, CardHeader,  CardFooter } from "@heroui/react";
+import { Card, CardHeader,  CardFooter, Button } from "@heroui/react";
 import React from "react";
-import AddTask from "./AddTask";
-import { cerateATask } from "@/app/lib/actions";
+
 
 const TasksCard = ({ task }) => {
   const { title, description, status, priority, dueDate } = task;
@@ -70,9 +69,9 @@ const TasksCard = ({ task }) => {
 
       {/* Footer */}
       <CardFooter className="flex justify-between mt-2">
-        <span className="px-3 py-1 rounded hover:bg-blue-600">
-          <AddTask cerateATask = {cerateATask}></AddTask>
-        </span>
+        <Button className="px-3 py-1 rounded hover:bg-blue-600">
+         Edit
+        </Button>
 
         <div className="text-sm bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">
           Delete
