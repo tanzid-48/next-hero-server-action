@@ -7,10 +7,10 @@ export default function Home() {
   return (
    <>
    <h2>Home page</h2>
-   <HeroPage></HeroPage>
+   {/* <HeroPage></HeroPage>
    <Link href= "/tasks">
     <Button variant="danger">Tasks</Button>
-   </Link>
+   </Link> */}
    </>
   
   );
