@@ -26,6 +26,7 @@
 
 import { Card, CardHeader,  CardFooter } from "@heroui/react";
 import React from "react";
+import AddTask from "./AddTask";
 
 const TasksCard = ({ task }) => {
   const { title, description, status, priority, dueDate } = task;
@@ -68,13 +69,13 @@ const TasksCard = ({ task }) => {
 
       {/* Footer */}
       <CardFooter className="flex justify-between mt-2">
-        <button className="text-sm bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">
-          Edit
-        </button>
+        <span className="px-3 py-1 rounded hover:bg-blue-600">
+          <AddTask></AddTask>
+        </span>
 
-        <button className="text-sm bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">
+        <div className="text-sm bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">
           Delete
-        </button>
+        </div>
       </CardFooter>
     </Card>
   );
