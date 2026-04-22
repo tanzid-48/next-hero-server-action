@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Learn Next.js basics",
+    "description": "Understand routing and data fetching",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-25"
+  },
+  {
+    "id": 2,
+    "title": "Build product page",
+    "description": "Create UI and fetch API data",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-26"
+  },
+  {
+    "id": 3,
+    "title": "Practice React hooks",
+    "description": "useState and useEffect practice",
+    "status": "completed",
+    "priority": "high",
+    "dueDate": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "title": "Setup json-server",
+    "description": "Create mock backend API",
+    "status": "completed",
+    "priority": "low",
+    "dueDate": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "title": "Add search feature",
+    "description": "Implement search functionality",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-28"
+  },
+  {
+    "id": 6,
+    "title": "Responsive design",
+    "description": "Make UI mobile friendly",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-27"
+  },
+  {
+    "id": 7,
+    "title": "Deploy project",
+    "description": "Deploy app to Vercel",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-30"
+  }
+]
